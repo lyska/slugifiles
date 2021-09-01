@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SlugiFiles - Slugify Filenames in your Browser</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/favicon-16x16.png">
+<!--    <link rel="manifest" href="images/icons/site.webmanifest">-->
+    <link rel="mask-icon" href="images/icons/safari-pinned-tab.svg" color="#f74b00">
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#f74b00">
+    <meta name="msapplication-config" content="images/icons/browserconfig.xml">
+    <meta name="theme-color" content="#f74b00">
+    <script src="https://unpkg.com/slugify@1.6.0/slugify.js"></script>
+</head>
+<body>
+<h1>SlugiFiles</h1>
+<p>Slugify Filenames in your Browser</p>
+<div id="drop-area">
+    <p>Upload one or more files with the file dialog or by dragging and dropping them onto the dashed region</p>
+    <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+    <label class="button" for="fileElem">Browse</label>
+</div>
+<p class="info">Made on a <img src="images/wednesday.png" alt="wednesday"/> by our dudes at <a
+        href="https://lyska.cloud" target="_blank"><img src="images/logo.svg" alt="lyska"/></a></p>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.note {
+    margin: 5em auto;
+    font-size: 1.1em;
+    color: #333;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 2em;
+    width: 25em;
+    margin: 5em auto;
+    padding: 2em;
+    height: 25em;
+}
+
+#drop-area.highlight {
+    border-color: #f74b00;
+}
+
+.button {
+    padding: 1em;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 0.5em;
+    margin: 13em auto 0;
+    display: block;
+    text-align: center;
+}
+
+.button:hover {;
+    color: #fff;
+    background: #f74b00;
+}
+
+#fileElem {
+    display: none;
+}
+
+progress {
+    width: 100%;
+}
+
+.info {
+    text-align: center;
+}
+
+.info img {
+    max-height: 1.4em;
+    vertical-align: middle;
+}
